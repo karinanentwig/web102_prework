@@ -17,7 +17,9 @@ body {
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    border-bottom: 2px solid #fff;
 }
+
 
 .stats-container {
     display: flex;
@@ -73,3 +75,13 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+.stats-containers {
+    display: flex;
+    align-items: center;
+  }
+
+  .stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+  }
